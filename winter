@@ -1,0 +1,210 @@
+--[[ 		Gui2Lua™ 		10zOfficial 		Version 1.0.0 ]] 
+local GLOBAL_KEY: string = 'SwopoLT2Oct2024discord.gg/NJMAMsMUhD' 
+-- Instances 
+local Verify = Instance.new("ScreenGui") 
+local Main = Instance.new("Frame") 
+local UICorner = Instance.new("UICorner") 
+local TextBox = Instance.new("TextBox") 
+local UICorner_2 = Instance.new("UICorner")
+local UIPadding = Instance.new("UIPadding") 
+local UITextSizeConstraint = Instance.new("UITextSizeConstraint") 
+local Title = Instance.new("TextLabel") 
+local UITextSizeConstraint_2 = Instance.new("UITextSizeConstraint") 
+local Options = Instance.new("Frame") 
+local UIGridLayout = Instance.new("UIGridLayout") 
+local Accept = Instance.new("Frame") 
+local UICorner_3 = Instance.new("UICorner") 
+local Main_2 = Instance.new("Frame") 
+local UICorner_4 = Instance.new("UICorner") 
+local Backdrop = Instance.new("Frame") 
+local UICorner_5 = Instance.new("UICorner") 
+local Button = Instance.new("ImageButton") 
+local UIAspectRatioConstraint = Instance.new("UIAspectRatioConstraint") 
+local Title_2 = Instance.new("TextLabel") 
+local UITextSizeConstraint_3 = Instance.new("UITextSizeConstraint")
+local Backdrop_2 = Instance.new("Frame") 
+local UICorner_6 = Instance.new("UICorner") 
+local UIListLayout = Instance.new("UIListLayout") 
+local UIStroke = Instance.new('UIStroke') 
+local UIStroke_2 = Instance.new('UIStroke')
+local UIStroke_3 = Instance.new('UIStroke')
+local UIStroke_4 = Instance.new('UIStroke') 
+local UIStroke_5 = Instance.new('UIStroke') 
+local UIStroke_6 = Instance.new('UIStroke') 
+local UIStroke_7 = Instance.new('UIStroke') 
+-- Properties 
+
+Verify.Name = "Verify" 
+Verify.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui") 
+Verify.ZIndexBehavior = Enum.ZIndexBehavior.Sibling Main.Name = "Main" 
+Main.Parent = Verify Main.AnchorPoint = Vector2.new(0.5, 0.5) 
+Main.BackgroundColor3 = Color3.new(0.0431373, 0.0431373, 0.0431373) 
+Main.BorderColor3 = Color3.new(0, 0, 0) 
+Main.BorderSizePixel = 0 
+Main.Position = UDim2.new(0.5, 0, 0.5, 0) 
+Main.Size = UDim2.new(0.400000066, 0, 0.250487953, 0)
+Main.SizeConstraint = Enum.SizeConstraint.RelativeXX 
+UIStroke.Parent = Main 
+UIStroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Contextual
+UIStroke.Color = Color3.fromRGB(0, 0, 0) 
+UIStroke.LineJoinMode = Enum.LineJoinMode.Round UIStroke.Thickness = 9 
+UICorner.Parent = Main UICorner.CornerRadius = UDim.new(0.0500000007, 0)
+TextBox.Parent = Main TextBox.AnchorPoint = Vector2.new(0.5, 0.5) 
+TextBox.BackgroundColor3 = Color3.new(0.0588235, 0.0588235, 0.0588235) 
+TextBox.BorderColor3 = Color3.new(0, 0, 0) TextBox.BorderSizePixel = 0 
+TextBox.Position = UDim2.new(0.5, 0, 0.5, 0) TextBox.Size = UDim2.new(0.817306757, 0, 0.176321223, 0) 
+TextBox.ClearTextOnFocus = false TextBox.Font = Enum.Font.FredokaOne
+TextBox.PlaceholderColor3 = Color3.new(1, 1, 1) 
+TextBox.PlaceholderText = "Enter Key Here From The Discord" 
+TextBox.Text = "" TextBox.TextColor3 = Color3.new(1, 1, 1) 
+TextBox.TextScaled = true TextBox.TextSize = 14 
+TextBox.TextWrapped = true UIStroke_2.Parent = TextBox 
+UIStroke_2.ApplyStrokeMode = Enum.ApplyStrokeMode.Contextual 
+UIStroke_2.Color = Color3.fromRGB(0, 0, 0) 
+UIStroke_2.LineJoinMode = Enum.LineJoinMode.Bevel
+UIStroke_2.Thickness = 8.1 UIStroke_3.Parent = TextBox 
+UIStroke_3.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
+UIStroke_3.Color = Color3.fromRGB(0, 0, 0)
+UIStroke_3.LineJoinMode = Enum.LineJoinMode.Round 
+UIStroke_3.Thickness = 5.9
+UICorner_2.Parent = TextBox
+UICorner_2.CornerRadius = UDim.new(0.100000001, 0)
+UIPadding.Parent = TextBox UIPadding.PaddingBottom = UDim.new(0.200000003, 0) 
+UIPadding.PaddingLeft = UDim.new(0.200000003, 0) 
+UIPadding.PaddingRight = UDim.new(0.200000003, 0)
+UIPadding.PaddingTop = UDim.new(0.200000003, 0) 
+UITextSizeConstraint.Parent = TextBox UITextSizeConstraint.MaxTextSize = 45 
+Title.Name = "Title"
+Title.Parent = Main Title.AnchorPoint = Vector2.new(0.5, 0.5)
+Title.BackgroundColor3 = Color3.new(0.862745, 0.862745, 0.862745)
+Title.BackgroundTransparency = 1 
+Title.BorderColor3 = Color3.new(0, 0, 0) 
+Title.BorderSizePixel = 0 Title.Position = UDim2.new(0.5, 0, 0.161276817, 0) 
+Title.Size = UDim2.new(0.510313451, 0, 0.157426447, 0) 
+Title.ZIndex = 2 Title.Font = Enum.Font.FredokaOne
+Title.Text =  "Swopo LT2 Key System""
+Title.TextColor3 = Color3.new(1, 1, 1) 
+Title.TextScaled = true 
+Title.TextSize = 14
+Title.TextWrapped = true 
+UIStroke_4.Parent = Title 
+UIStroke_4.ApplyStrokeMode = Enum.ApplyStrokeMode.Contextual 
+UIStroke_4.Color = Color3.fromRGB(0, 0, 0)
+UIStroke_4.LineJoinMode = Enum.LineJoinMode.Miter UIStroke_4.Thickness = 9.2 
+UITextSizeConstraint_2.Parent = Title UITextSizeConstraint_2.MaxTextSize = 80 
+Options.Name = "Options" 
+Options.Parent = Main Options.Active = true Options.AnchorPoint = Vector2.new(0.5, 0.5) 
+Options.BackgroundColor3 = Color3.new(1, 1, 1) 
+Options.BackgroundTransparency = 1 
+Options.BorderColor3 = Color3.new(0, 0, 0) 
+Options.BorderSizePixel = 0 
+Options.Position = UDim2.new(0.5, 0, 0.75, 0) 
+Options.Size = UDim2.new(0.751381695, 0, 0.161225855, 0)
+UIGridLayout.Parent = Options UIGridLayout.FillDirection = Enum.FillDirection.Vertical
+UIGridLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center 
+UIGridLayout.SortOrder = Enum.SortOrder.LayoutOrder 
+UIGridLayout.VerticalAlignment = Enum.VerticalAlignment.Center 
+UIGridLayout.CellPadding = UDim2.new(0.100000001, 0, 0.400000006, 0) 
+UIGridLayout.CellSize = UDim2.new(0.5, 0, 1, 0) 
+UIGridLayout.FillDirectionMaxCells = 1 
+Accept.Name = "Accept" 
+Accept.Parent = Options 
+Accept.AnchorPoint = Vector2.new(0.5, 0.5)
+Accept.BackgroundColor3 = Color3.new(1, 1, 1)
+Accept.BackgroundTransparency = 1
+Accept.BorderColor3 = Color3.new(0, 0, 0) Accept.BorderSizePixel = 0
+Accept.Position = UDim2.new(0.059447594, 0, 0.50000006, 0)
+Accept.Size = UDim2.new(0.5, 0, 1, 0)
+UICorner_3.Parent = Accept UICorner_3.CornerRadius = UDim.new(0.150000006, 0) 
+Main_2.Name = "Main" 
+Main_2.Parent = Accept Main_2.AnchorPoint = Vector2.new(0.5, 0.5)
+Main_2.BackgroundColor3 = Color3.new(0, 0.592157, 0.611765) 
+Main_2.BorderColor3 = Color3.new(0, 0, 0)
+Main_2.BorderSizePixel = 0 
+Main_2.Position = UDim2.new(0.5, 0, 0.5, 0) 
+Main_2.Size = UDim2.new(1, 0, 1, 0) UIStroke_5.Parent = Main_2
+UIStroke_5.ApplyStrokeMode = Enum.ApplyStrokeMode.Contextual 
+UIStroke_5.Color = Color3.fromRGB(2, 139, 109) 
+UIStroke_5.LineJoinMode = Enum.LineJoinMode.Round
+UIStroke_5.Thickness = 5.8 UICorner_4.Parent = Main_2
+UICorner_4.CornerRadius = UDim.new(0.150000006, 0) 
+Backdrop.Name = "Backdrop" 
+Backdrop.Parent = Main_2 Backdrop.AnchorPoint = Vector2.new(0.5, 0.5)
+Backdrop.BackgroundColor3 = Color3.new(0.0117647, 0.807843, 0.643137) 
+Backdrop.BorderColor3 = Color3.new(0, 0, 0) 
+Backdrop.BorderSizePixel = 0 
+Backdrop.Position = UDim2.new(0.5, 0, 0.449998289, 0) 
+Backdrop.Size = UDim2.new(1, 0, 0.899999678, 0) 
+UICorner_5.Parent = Backdrop UICorner_5.CornerRadius = UDim.new(0.150000006, 0)
+Button.Name = "Button" 
+Button.Parent = Main_2 Button.AnchorPoint = Vector2.new(0.5, 0.5)
+Button.BackgroundColor3 = Color3.new(1, 1, 1) 
+Button.BackgroundTransparency = 1 Button.BorderColor3 = Color3.new(0, 0, 0) 
+Button.BorderSizePixel = 0
+Button.Position = UDim2.new(0.5, 0, 0.5, 0) 
+Button.Size = UDim2.new(0.74269408, 0, 1, 0) 
+Button.ScaleType = Enum.ScaleType.Fit 
+UIAspectRatioConstraint.Parent = Button
+UIAspectRatioConstraint.AspectRatio = 3.082395315170288
+Title_2.Name = "Title" 
+Title_2.Parent = Main_2 
+Title_2.AnchorPoint = Vector2.new(0.5, 0.5)
+Title_2.BackgroundColor3 = Color3.new(0.862745, 0.862745, 0.862745)
+Title_2.BackgroundTransparency = 1 
+Title_2.BorderColor3 = Color3.new(0, 0, 0)
+Title_2.BorderSizePixel = 0 
+Title_2.Position = UDim2.new(0.5, 0, 0.449999988, 0)
+Title_2.Size = UDim2.new(0.887084186, 0, 0.771429062, 0)
+Title_2.ZIndex = 2 
+Title_2.Font = Enum.Font.FredokaOne Title_2.Text = "Confirm"
+Title_2.TextColor3 = Color3.new(1, 1, 1) 
+Title_2.TextScaled = true Title_2.TextSize = 14 
+Title_2.TextWrapped = true 
+UIStroke_6.Parent = Title_2
+UIStroke_6.ApplyStrokeMode = Enum.ApplyStrokeMode.Contextual
+UIStroke_6.Color = Color3.fromRGB(2, 139, 109) 
+UIStroke_6.LineJoinMode = Enum.LineJoinMode.Round
+UIStroke_6.Thickness = 4 
+UIStroke_7.Parent = Title_2
+UIStroke_7.ApplyStrokeMode = Enum.ApplyStrokeMode.Contextual 
+UIStroke_7.Color = Color3.fromRGB(25, 25, 25)
+UIStroke_7.LineJoinMode = Enum.LineJoinMode.Round
+UIStroke_7.Thickness = 4 
+UITextSizeConstraint_3.Parent = Title_2 UITextSizeConstraint_3.MaxTextSize = 53 
+Backdrop_2.Name = "Backdrop"
+Backdrop_2.Parent = Main 
+Backdrop_2.AnchorPoint = Vector2.new(0.5, 0.5)
+Backdrop_2.BackgroundColor3 = Color3.new(0.137255, 0.137255, 0.137255)
+Backdrop_2.BorderColor3 = Color3.new(0, 0, 0) 
+Backdrop_2.BorderSizePixel = 0 
+Backdrop_2.Position = UDim2.new(0.5, 0, 0.479908139, 0) 
+Backdrop_2.Size = UDim2.new(1.00000012, 0, 0.959819198, 0)
+Backdrop_2.ZIndex = 0
+UICorner_6.Parent = Backdrop_2 UICorner_6.CornerRadius = UDim.new(0.0540000014, 0)
+UIListLayout.Parent = Backdrop_2 
+UIListLayout.FillDirection = Enum.FillDirection.Horizontal 
+UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder UIListLayout.VerticalAlignment = Enum.VerticalAlignment.Center
+
+-- Scripts
+
+local function YTNUOQD_fake_script()-- Main.LocalScript 	
+    local script = Instance.new('LocalScript', Main) 	 	
+    Button.MouseButton1Click:Connect(function() 		
+        if TextBox.Text == 'Invalid key'or 
+        TextBox.Text == 'Success' 
+        then 			return 		end 		if TextBox.Text ~= GLOBAL_KEY then 			
+            TextBox.Text = 'Invalid key' 	
+            TextBox.TextEditable = false 			
+            task.wait(2) 			
+            TextBox.Text = '' 			
+            TextBox.TextEditable = true 	
+            return 
+        end 
+        TextBox.Text = 'Success' 		
+        TextBox.TextEditable = false 	
+        task.wait(2) 		
+        script.Parent.Parent:Destroy() 
+        --> Load Script <-- 
+    end) 
+end 
+coroutine.wrap(YTNUOQD_fake_script)()
