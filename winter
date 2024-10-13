@@ -8,7 +8,6 @@
 
 local GLOBAL_KEY: string = 'Legit_Key'
 	
-}
 local Verify = Instance.new("ScreenGui") 
 local Main = Instance.new("Frame") 
 local UICorner = Instance.new("UICorner") 
