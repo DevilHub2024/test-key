@@ -82,7 +82,7 @@ Title.BorderColor3 = Color3.new(0, 0, 0)
 Title.BorderSizePixel = 0 Title.Position = UDim2.new(0.5, 0, 0.161276817, 0) 
 Title.Size = UDim2.new(0.510313451, 0, 0.157426447, 0) 
 Title.ZIndex = 2 Title.Font = Enum.Font.FredokaOne
-Title.Text =  "Swopo LT2 Key System""
+Title.Text =  "Winter HUb""
 Title.TextColor3 = Color3.new(1, 1, 1) 
 Title.TextScaled = true 
 Title.TextSize = 14
