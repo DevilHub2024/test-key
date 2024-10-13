@@ -1,6 +1,14 @@
---[[ 		Gui2Lua™ 		10zOfficial 		Version 1.0.0 ]] 
-local GLOBAL_KEY: string = 'SwopoLT2Oct2024discord.gg/NJMAMsMUhD' 
--- Instances 
+--[[
+
+		Gui2Lua™
+		10zOfficial
+		Version 1.0.0
+
+]]
+
+local GLOBAL_KEY: string = 'Legit_Key'
+	
+}
 local Verify = Instance.new("ScreenGui") 
 local Main = Instance.new("Frame") 
 local UICorner = Instance.new("UICorner") 
